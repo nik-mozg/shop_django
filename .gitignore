@@ -1,0 +1,30 @@
+# Игнорировать все папки __pycache__ во всех папках
+__pycache__/
+
+# Игнорировать все папки .vscode во всех папках
+.vscode/
+
+.mypy_cache
+# Игнорировать кешы Pytest
+.pytest_cache/
+
+# Игнорировать файлы покрытия кода
+.coverage
+
+.gitattributes
+.ruff_cache
+# Игнорировать конфигурационные файлы
+log_config.yaml
+alembic.log
+
+# Игнорировать содержимое папки media (оставить саму папку)
+media/*
+!media/
+
+/FastAPI/
+/Python_Basic/
+/file_sync_service/
+/python_advanced/
+/python_basic_diploma/
+/python_django/
+/Python_Basic

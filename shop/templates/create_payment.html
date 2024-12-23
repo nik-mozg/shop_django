@@ -1,0 +1,7 @@
+<!-- create_payment.html -->
+<form method="POST">
+    {% csrf_token %}
+    <label for="amount">Amount:</label>
+    <input type="text" name="amount" id="amount" value="100">
+    <button type="submit">Pay with YooKassa</button>
+</form>

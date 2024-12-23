@@ -1,0 +1,17 @@
+psql -U ecommerce_user -d ecommerce_db
+PASSWORD': 'securepassword',  # Пароль пользователя
+
+
+psql -U postgres
+python manage.py makemigrations shop
+
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+
+"default.png"
+
+
+print("Request body:", request.body)
